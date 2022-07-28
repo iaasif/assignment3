@@ -4,4 +4,25 @@
 
 .slider-img {
     filter: brightness(50%);
+    width: 1320px;
+    height: 700px;
+}
+
+@media only screen and (max-width:991px) {
+
+    #ready-to-join {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        padding-top: 4%;
+
+    }
+
+    #btn-ready {
+        justify-content: center;
+        text-align: center;
+        /* padding-left: 1%; */
+    }
 }
